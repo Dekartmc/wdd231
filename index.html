@@ -6,6 +6,7 @@
     <meta name="description" content="W01 Assignment: Course Home Page – Michael Flores">
     <meta name="author" content="Michael Flores">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
@@ -16,23 +17,50 @@
   <body>
     <!-- Header -->
     <header>
-      <span id="course-title">WDD231.002 - Web Frontend Development I</span>
+      <div class="title-container">
+        <div class="logo-img">
+          <img src="images/logo.png" alt="Michael Flores Logo" class="logo">
+        </div>
+        <h1 class="title">WDD 231</h1>
+      </div>
+      <a id="menu" href="#"></a>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Chamber Project</a></li>
-          <li><a href="#">Final Project</a></li>
+        <ul class="navigation">
+          <li><a href="#" id="home" class="active">Home</a></li>
+          <li><a href="#" id="chamber">Chamber Project</a></li>
+          <li><a href="#" id="final">Final Project</a></li>
         </ul>
       </nav>
     </header>
     <!-- Main -->
     <main>
-      <h1>Michael Flores</h1>
+      <h1 class="page-title">Home</h1>
+      <section class="card grid-responsive">
+        <h2 class="card-title">About Me</h2>
+        <div class="card-content">
+          <p>Nulla rutrum in nulla id ultricies. Ut sagittis, enim eget varius hendrerit, dui lectus aliquam erat, id ultricies libero risus vitae tellus. Vivamus laoreet lectus ac metus rhoncus pulvinar. Nam vitae urna ut nulla aliquet cursus id a mi.</p>
+        </div>
+      </section>
+      <section class="card grid-responsive">
+        <h2 class="card-title">Stundent Photo</h2>
+        <div class="card-content">
+          <img src="images/michael.jpg" alt="Photo of Michael Flores" class="profile">
+        </div>
+      </section>
+      <section class="card courses">
+        <h2 class="card-title">Web Certificate Courses</h2>
+        <ul class="courses-list">
+          <li><a href="#" id="all">All</a></li>
+          <li><a href="#" id="cse">CSE</a></li>
+          <li><a href="#" id="wdd">WDD</a></li>
+        </ul>
+        <div id="course-card" class="course-list-container"></div>
+        <p id="total-credits" class="total-credits"></p>
+      </section>
     </main>
     <!-- Footer -->
     <footer>
       <div class="footer-container">
-        <a href="index.html">Home</a>
         <ul>
           <li>
             <a href="#">
@@ -56,10 +84,11 @@
             </a>
           </li>
         </ul>
-        <a href="contact.html">contact</a>
+        
       </div>
       <div class="copyright">
         <p id="copyright"></p>
+        <p id="lastModified"></p>
       </div>
     </footer>
   </body>

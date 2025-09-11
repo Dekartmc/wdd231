@@ -16,14 +16,121 @@
 body{
 	font-family: var(--body-font);
 	color: var(--accent1-color);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title-container {
+  display: flex;
+}
+.logo-img {
+  margin-right: 10px;
+}
+.logo {
+  width: 50px;
+  height: auto;
+}
+/**** START MENU ****/
+.navigation {
+  display: flex;
+  background-color: #002623;
+}
+.navigation li {
+  display: inline-block;
+  margin: 10px 20px 10px 5px;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+.navigation a:hover,
+.navigation a:active {
+	color: white;
+	background-color: black;
+}
+#menu {
+  display: none;
+}
+/**** END MENU ****/
+main {
+  max-width: 1200px;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+main h1 {
+  text-align: center;
+  grid-column: 1 / span 2;
+}
+.page-title {
+  font-family: var(--heading-font);
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: var(--primary-color);
+}
+.card {
+  border-radius: 8px;
+  border: 1px solid var(--accent1-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  padding: 10px 5px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: var(--accent1-color);
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 1rem;
+}
+.card-content {
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+}
+.profile {
+  max-width: 180px;
+  border-radius: 5px;
+}
+.courses {
+  grid-column: 1 / span 2;
+}
+.courses-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+.courses-list li {
+  background-color: var(--secondary-color);
+  padding: 5px 25px;
+}
+.course-list-container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.course-card {
+  padding: 10px;
+  margin: 10px;
+  background-color: #95aab6;
+}
+.total-credits {
+  padding: 10px;
+  font-size: large;
+  font-weight: 800;
+}
+.grid-responsive {
+  grid-column: 1 / span 2;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px 16px;
   background-color: #95aab6;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-container a {
@@ -33,7 +140,7 @@ body{
   font-weight: bold;
   
   &:hover {
-    color: #45405f;
+    color: var(--accent1-color);
   }
 }
 
@@ -47,6 +154,6 @@ body{
 .copyright {
   padding: 4px 0;
   text-align: center;
-  color: #95AAB6;
+  color: var(--accent1-color);
   background-color: #f5f6f7;
 }
