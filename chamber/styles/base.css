@@ -1,6 +1,3 @@
-/* reset / normalize if you include one above */
-/* Basic styling */
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -40,12 +37,10 @@ main {
   gap: 1rem;
 }
 
-/* Grid view */
 .grid-view {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
-/* List view overrides */
 .list-view {
   display: block;
 }
@@ -56,7 +51,6 @@ main {
   gap: 1rem;
 }
 
-/* Card styling */
 .member-card {
   border: 1px solid #ccc;
   border-radius: 6px;
