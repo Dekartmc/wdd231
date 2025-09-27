@@ -1,0 +1,79 @@
+[
+  {
+    "name": "TechNova Solutions",
+    "address": "1234 Innovation Way, San Francisco, CA 94105",
+    "phone": "(415) 555-2390",
+    "website": "https://www.technova.com",
+    "image": "technova.png",
+    "membershipLevel": 3,
+    "email": "info@technova.com",
+    "founded": 2010,
+    "industry": "Software Development"
+  },
+  {
+    "name": "GreenLeaf Organics",
+    "address": "875 Market St, Portland, OR 97205",
+    "phone": "(503) 555-1144",
+    "website": "https://www.greenleaforganics.com",
+    "image": "greenleaf.jpg",
+    "membershipLevel": 2,
+    "email": "support@greenleaforganics.com",
+    "founded": 2015,
+    "industry": "Food & Beverage"
+  },
+  {
+    "name": "BlueSky Airlines",
+    "address": "456 Jetstream Ave, Dallas, TX 75201",
+    "phone": "(214) 555-9988",
+    "website": "https://www.blueskyair.com",
+    "image": "bluesky.png",
+    "membershipLevel": 1,
+    "email": "contact@blueskyair.com",
+    "founded": 1999,
+    "industry": "Aviation"
+  },
+  {
+    "name": "EcoBuild Constructors",
+    "address": "789 Sustainable Blvd, Denver, CO 80202",
+    "phone": "(303) 555-6721",
+    "website": "https://www.ecobuildco.com",
+    "image": "ecobuild.svg",
+    "membershipLevel": 3,
+    "email": "projects@ecobuildco.com",
+    "founded": 2005,
+    "industry": "Construction"
+  },
+  {
+    "name": "PixelPoint Design Studio",
+    "address": "22 Art District Rd, Austin, TX 73301",
+    "phone": "(512) 555-8210",
+    "website": "https://www.pixelpointdesign.com",
+    "image": "pixelpoint.jpg",
+    "membershipLevel": 2,
+    "email": "hello@pixelpointdesign.com",
+    "founded": 2018,
+    "industry": "Graphic & Web Design"
+  },
+  {
+    "name": "HealthFirst Pharmacy",
+    "address": "321 Wellness Dr, Miami, FL 33130",
+    "phone": "(305) 555-4444",
+    "website": "https://www.healthfirstpharma.com",
+    "image": "healthfirst.png",
+    "membershipLevel": 1,
+    "email": "care@healthfirstpharma.com",
+    "founded": 2000,
+    "industry": "Healthcare"
+  },
+  {
+    "name": "Summit Outdoor Gear",
+    "address": "999 Mountain Rd, Salt Lake City, UT 84101",
+    "phone": "(801) 555-7733",
+    "website": "https://www.summitgear.com",
+    "image": "summit.png",
+    "membershipLevel": 2,
+    "email": "sales@summitgear.com",
+    "founded": 2012,
+    "industry": "Retail (Sporting Goods)"
+  }
+]

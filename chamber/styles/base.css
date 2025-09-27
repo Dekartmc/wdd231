@@ -1,0 +1,129 @@
+/* reset / normalize if you include one above */
+/* Basic styling */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+#viewToggle {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+#members {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Grid view */
+.grid-view {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+/* List view overrides */
+.list-view {
+  display: block;
+}
+
+.list-view .member-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Card styling */
+.member-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-card img {
+  max-width: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.member-card h3 {
+  margin: 0.5rem 0;
+}
+
+.member-card p {
+  margin: 0.25rem 0;
+}
+
+.member-card a {
+  color: #003366;
+  text-decoration: none;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 16px;
+  background-color: #95aab6;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container a {
+  color: #f5f6f7;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+  &:hover {
+    color: var(--accent1-color);
+  }
+}
+
+.footer-container ul {
+  display: flex;
+  padding: 0;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.copyright {
+  padding: 4px 0;
+  text-align: center;
+  color: var(--accent1-color);
+  background-color: #f5f6f7;
+}
+
+@media (max-width: 320px) {
+  .member-card {
+    padding: 0.75rem;
+  }
+  member-card img {
+    max-width: 60px;
+  }
+}
