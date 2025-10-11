@@ -92,3 +92,15 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchMembers();
   setFooterDates();
 });
+
+document.getElementById('timestamp').value = new Date().toISOString();
+
+const formInfo = new URLSearchParams(window.location.search);
+document.querySelector('#results').innerHTML = `
+  <p><strong>First Name:</strong> ${formInfo.get('firstName')}</p>
+  <p><strong>Last Name:</strong> ${formInfo.get('lastName')}</p>
+  <p><strong>Email:</strong> ${formInfo.get('email')}</p>
+  <p><strong>Mobile Number:</strong> ${formInfo.get('phone')}</p>
+  <p><strong>Business/Organization Name:</strong> ${formInfo.get('businessName')}</p>
+  <p><strong>Submission Time:</strong> ${formInfo.get('timestamp')}</p>
+`
