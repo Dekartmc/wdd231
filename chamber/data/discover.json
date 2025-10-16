@@ -1,0 +1,52 @@
+{
+  "places": [
+    {
+      "name": "Mountain View Park",
+      "address": "123 Hilltop Dr, Pleasantville, UT",
+      "description": "A scenic park with hiking trails and picnic areas.",
+      "image": "mountain-view.webp"
+    },
+    {
+      "name": "Inlet Park",
+      "address": "6800 N Saratoga Rd, Saratoga Springs, UT 84045",
+      "description": "Inlet Park is the trail head for Utah Lake shore Trail, Jordan River Trail, and the Saratoga Hot Springs.",
+      "image": "inlet-park.webp"
+    },
+    {
+      "name": "Chase Home Museum",
+      "address": "S Constitution Dr, Salt Lake City, UT 84105",
+      "description": "The Chase Home Museum of Utah Folk Arts is the only museum in the country dedicated to displaying a state-owned collection of contemporary folk art.",
+      "image": "chase-museum.webp"
+    },
+    {
+      "name": "Church History Museum",
+      "address": "45 N W Temple St, Salt Lake City, UT 84150",
+      "description": "The Church History Museum, formerly the Museum of Church History and Art, is the premier museum operated by the Church History Department of the Church of Jesus Christ of Latter-day Saints.",
+      "image": "church-history-museum.webp"
+    },
+    {
+      "name": "Clark Planetarium",
+      "address": "110 400 W, Salt Lake City, UT 84101",
+      "description": "The Chase Home Museum of Utah Folk Arts is the only museum in the country dedicated to displaying a state-owned collection of contemporary folk art.",
+      "image": "clark-planetarium.webp"
+    },
+    {
+      "name": "Chase Home Museum",
+      "address": "S Constitution Dr, Salt Lake City, UT 84105",
+      "description": "The Chase Home Museum of Utah Folk Arts is the only museum in the country dedicated to displaying a state-owned collection of contemporary folk art.",
+      "image": "chase-museum.webp"
+    },
+    {
+      "name": "Chase Home Museum",
+      "address": "S Constitution Dr, Salt Lake City, UT 84105",
+      "description": "The Chase Home Museum of Utah Folk Arts is the only museum in the country dedicated to displaying a state-owned collection of contemporary folk art.",
+      "image": "chase-museum.webp"
+    },
+    {
+      "name": "Chase Home Museum",
+      "address": "S Constitution Dr, Salt Lake City, UT 84105",
+      "description": "The Chase Home Museum of Utah Folk Arts is the only museum in the country dedicated to displaying a state-owned collection of contemporary folk art.",
+      "image": "chase-museum.webp"
+    }
+  ]
+}
